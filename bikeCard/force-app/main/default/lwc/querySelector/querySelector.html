@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Query Selector">
+        <div>Hello {fname} {lname}</div>
+        <div>
+            <lightning-input name="firstname" label="Enter first name" value="Enter your First Name"></lightning-input>
+        </div>
+
+        <div>
+            <lightning-input name="lastname" label="Enter last name" value="Enter your Last Name"></lightning-input>
+        </div>
+
+        <div>
+            <lightning-button label="Submit" onclick={changeHandler}></lightning-button>
+        </div>
+    </lightning-card>
+</template>
